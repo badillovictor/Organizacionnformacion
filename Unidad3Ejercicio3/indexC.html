@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>U3E3</title>
+</head>
+<body>
+<div id="div1" style="background-color:#cb958b; visibility: visible;">
+    <h1>Contenedor 1</h1>
+    <button onclick="document.getElementById('div1').style.visibility='hidden';
+                     document.getElementById('div2').style.visibility='visible';">
+        Click
+    </button>
+</div>
+<div id="div2" style="background-color:#afcba0; visibility: hidden;">
+    <h1>Contenedor 2</h1>
+    <button onclick="document.getElementById('div2').style.visibility='hidden';
+                     document.getElementById('div1').style.visibility='visible';">
+        Click
+    </button>
+</div>
+</body>
+</html>
