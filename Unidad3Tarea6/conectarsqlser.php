@@ -1,7 +1,7 @@
 <?php
 $servername = "MSSQLSERVER";
 $username = "sa";
-$password = "";
+$password = "password";
 $database = "master";
 
 try {
