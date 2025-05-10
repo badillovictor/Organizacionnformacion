@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <img src="${iconUrl}" alt="${condition}" class="weather-icon">
                 <p class="temperature">${temperature}°C</p>
                 <p class="condition">${condition}</p>
-                <p class="details">Humidity: ${humidity}%</p>
-                <p class="details">Wind: ${windKph} km/h</p>
+                <p class="details">Humedad: ${humidity}%</p>
+                <p class="details">Viento: ${windKph} km/h</p>
             `;
         })
         .catch(error => {
