@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampico Weather</title>
+    <link rel="stylesheet" href="../Styles/TopBar.css">
+    <link rel="stylesheet" href="../Styles/Weather.css">
+</head>
+<body>
+<header class="top-bar">
+    <nav>
+        <ul>
+            <li><a href="Dashboard.html">Imagen del Dia</a></li>
+            <li><a href="Weather.html" class="active">Clima</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+            <li><a href="#">Option 4</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <br>
+    <h1>Clima en Tampico Tampico</h1>
+    <div id="weather-data" class="weather-container">
+        <p>Loading weather data...</p>
+    </div>
+</div>
+
+<script src="../Backend/Weather.js"></script>
+</body>
+</html>
